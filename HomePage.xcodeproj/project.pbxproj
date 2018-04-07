@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0FEE9A207943F70046B1AA /* practice.json in Resources */ = {isa = PBXBuildFile; fileRef = DC0FEE99207943F60046B1AA /* practice.json */; };
 		DC10EE012079081B0062FAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE002079081B0062FAC1 /* AppDelegate.swift */; };
 		DC10EE032079081B0062FAC1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE022079081B0062FAC1 /* HomeVC.swift */; };
 		DC10EE062079081B0062FAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC10EE042079081B0062FAC1 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC0FEE99207943F60046B1AA /* practice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = practice.json; sourceTree = "<group>"; };
 		DC10EDFD2079081B0062FAC1 /* HomePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC10EE002079081B0062FAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC10EE022079081B0062FAC1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				DC10EE022079081B0062FAC1 /* HomeVC.swift */,
+				DC0FEE99207943F60046B1AA /* practice.json */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0FEE9A207943F70046B1AA /* practice.json in Resources */,
 				DC10EE0E2079081B0062FAC1 /* LaunchScreen.storyboard in Resources */,
 				DC10EE0B2079081B0062FAC1 /* Assets.xcassets in Resources */,
 				DC10EE062079081B0062FAC1 /* Main.storyboard in Resources */,
