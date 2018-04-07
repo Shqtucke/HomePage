@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		DC10EE012079081B0062FAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE002079081B0062FAC1 /* AppDelegate.swift */; };
-		DC10EE032079081B0062FAC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE022079081B0062FAC1 /* ViewController.swift */; };
+		DC10EE032079081B0062FAC1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE022079081B0062FAC1 /* HomeVC.swift */; };
 		DC10EE062079081B0062FAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC10EE042079081B0062FAC1 /* Main.storyboard */; };
 		DC10EE092079081B0062FAC1 /* HomePage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE072079081B0062FAC1 /* HomePage.xcdatamodeld */; };
 		DC10EE0B2079081B0062FAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC10EE0A2079081B0062FAC1 /* Assets.xcassets */; };
 		DC10EE0E2079081B0062FAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC10EE0C2079081B0062FAC1 /* LaunchScreen.storyboard */; };
+		DC10EE1A207909C80062FAC1 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE19207909C80062FAC1 /* HomeViewCell.swift */; };
+		DC10EE1C20790ACA0062FAC1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE1B20790ACA0062FAC1 /* Home.swift */; };
+		DC10EE1E20790B3E0062FAC1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE1D20790B3E0062FAC1 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC10EDFD2079081B0062FAC1 /* HomePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC10EE002079081B0062FAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC10EE022079081B0062FAC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC10EE022079081B0062FAC1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		DC10EE052079081B0062FAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC10EE082079081B0062FAC1 /* HomePage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomePage.xcdatamodel; sourceTree = "<group>"; };
 		DC10EE0A2079081B0062FAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC10EE0D2079081B0062FAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC10EE0F2079081B0062FAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC10EE19207909C80062FAC1 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		DC10EE1B20790ACA0062FAC1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DC10EE1D20790B3E0062FAC1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				DC10EE002079081B0062FAC1 /* AppDelegate.swift */,
-				DC10EE022079081B0062FAC1 /* ViewController.swift */,
+				DC10EE18207909900062FAC1 /* Service */,
+				DC10EE17207909850062FAC1 /* Model */,
+				DC10EE162079097D0062FAC1 /* View */,
+				DC10EE15207909730062FAC1 /* Controller */,
 				DC10EE042079081B0062FAC1 /* Main.storyboard */,
 				DC10EE0A2079081B0062FAC1 /* Assets.xcassets */,
 				DC10EE0C2079081B0062FAC1 /* LaunchScreen.storyboard */,
@@ -65,6 +74,38 @@
 				DC10EE072079081B0062FAC1 /* HomePage.xcdatamodeld */,
 			);
 			path = HomePage;
+			sourceTree = "<group>";
+		};
+		DC10EE15207909730062FAC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC10EE022079081B0062FAC1 /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC10EE162079097D0062FAC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC10EE19207909C80062FAC1 /* HomeViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC10EE17207909850062FAC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC10EE1B20790ACA0062FAC1 /* Home.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC10EE18207909900062FAC1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC10EE1D20790B3E0062FAC1 /* DataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC10EE032079081B0062FAC1 /* ViewController.swift in Sources */,
+				DC10EE032079081B0062FAC1 /* HomeVC.swift in Sources */,
+				DC10EE1A207909C80062FAC1 /* HomeViewCell.swift in Sources */,
+				DC10EE1C20790ACA0062FAC1 /* Home.swift in Sources */,
+				DC10EE1E20790B3E0062FAC1 /* DataService.swift in Sources */,
 				DC10EE012079081B0062FAC1 /* AppDelegate.swift in Sources */,
 				DC10EE092079081B0062FAC1 /* HomePage.xcdatamodeld in Sources */,
 			);
