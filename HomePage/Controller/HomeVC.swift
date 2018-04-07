@@ -11,9 +11,15 @@ import UIKit
 class HomeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet var collectionView: UICollectionView!
+    //var gridLayout: GridLayout!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        gridLayout = GridLayout(numberOfColumns: 3)
+//        collectionView.collectionViewLayout = gridLayout
+//        collectionView.reloadData()
+        
         
     }
 
@@ -30,6 +36,13 @@ class HomeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         }
         return HomeViewCell() 
     }
+    
+//    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+//        super.viewWillTransition(to: size, with: coordinator)
+//
+//        gridLayout.invalidateLayout()
+//
+//    }
 
 
 }

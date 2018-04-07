@@ -16,6 +16,7 @@
 		DC10EE1A207909C80062FAC1 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE19207909C80062FAC1 /* HomeViewCell.swift */; };
 		DC10EE1C20790ACA0062FAC1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE1B20790ACA0062FAC1 /* Home.swift */; };
 		DC10EE1E20790B3E0062FAC1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE1D20790B3E0062FAC1 /* DataService.swift */; };
+		DC10EE2120790FE30062FAC1 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC10EE2020790FE30062FAC1 /* GridLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DC10EE19207909C80062FAC1 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 		DC10EE1B20790ACA0062FAC1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		DC10EE1D20790B3E0062FAC1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DC10EE2020790FE30062FAC1 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		DC10EDFF2079081B0062FAC1 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				DC10EE1F20790FB20062FAC1 /* Layouts */,
 				DC10EE002079081B0062FAC1 /* AppDelegate.swift */,
 				DC10EE18207909900062FAC1 /* Service */,
 				DC10EE17207909850062FAC1 /* Model */,
@@ -106,6 +109,14 @@
 				DC10EE1D20790B3E0062FAC1 /* DataService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		DC10EE1F20790FB20062FAC1 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				DC10EE2020790FE30062FAC1 /* GridLayout.swift */,
+			);
+			path = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 				DC10EE1C20790ACA0062FAC1 /* Home.swift in Sources */,
 				DC10EE1E20790B3E0062FAC1 /* DataService.swift in Sources */,
 				DC10EE012079081B0062FAC1 /* AppDelegate.swift in Sources */,
+				DC10EE2120790FE30062FAC1 /* GridLayout.swift in Sources */,
 				DC10EE092079081B0062FAC1 /* HomePage.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

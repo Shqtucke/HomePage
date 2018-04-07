@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="9Je-jf-FbZ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                <rect key="frame" x="0.0" y="103" width="375" height="250"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LnC-GY-ybp">
                                     <size key="itemSize" width="175" height="199"/>
@@ -72,10 +72,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9Je-jf-FbZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5D0-gC-nw5"/>
+                            <constraint firstItem="9Je-jf-FbZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="103" id="5D0-gC-nw5"/>
                             <constraint firstItem="9Je-jf-FbZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FjC-1N-gAD"/>
                             <constraint firstItem="9Je-jf-FbZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WgO-3M-Qkx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9Je-jf-FbZ" secondAttribute="bottom" constant="368" id="wsD-Ml-h5m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9Je-jf-FbZ" secondAttribute="bottom" constant="265" id="wsD-Ml-h5m"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -88,6 +88,70 @@
             </objects>
             <point key="canvasLocation" x="476" y="133.5832083958021"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="MX5-3v-y0f">
+            <objects>
+                <viewController id="c6p-U2-F35" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NdD-nr-EM3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.2417278886" green="0.66554021839999999" blue="0.91851139069999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="jWs-em-SS5"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="wzx-JQ-JZO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vbB-bJ-qKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1131" y="134"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="8s7-BM-ffD">
+            <objects>
+                <viewController id="pjw-TE-J7U" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="532-jG-NKR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="h4z-va-yCI"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="2kb-El-rPb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XvB-l1-Sko" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1122" y="794"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="zjI-zW-g0R">
+            <objects>
+                <viewController id="F2b-J8-NRC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b4r-4X-NRX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.66274509800000003" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="eiY-XB-K3i"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="ONu-Wx-OZT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blx-m0-arz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1799" y="130"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="HpF-ky-ON5">
+            <objects>
+                <viewController id="AJU-37-eyM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fiE-VT-7HW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="QRk-fw-b86"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="tbp-xi-oWG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMh-Id-zRi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1798" y="794"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="o1O-8L-ZCr">
             <objects>
@@ -99,6 +163,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="HrZ-Fl-3td"/>
+                        <segue destination="c6p-U2-F35" kind="relationship" relationship="viewControllers" id="9c6-vT-D55"/>
+                        <segue destination="F2b-J8-NRC" kind="relationship" relationship="viewControllers" id="BZr-n0-h7t"/>
+                        <segue destination="AJU-37-eyM" kind="relationship" relationship="viewControllers" id="8Lm-KF-AlF"/>
+                        <segue destination="pjw-TE-J7U" kind="relationship" relationship="viewControllers" id="zlg-O9-aqr"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P57-OI-Oqk" userLabel="First Responder" sceneMemberID="firstResponder"/>
