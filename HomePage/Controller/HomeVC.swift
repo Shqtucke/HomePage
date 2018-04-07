@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class HomeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     @IBOutlet var collectionView: UICollectionView!
     //var gridLayout: GridLayout!
@@ -16,12 +16,7 @@ class HomeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        gridLayout = GridLayout(numberOfColumns: 3)
-//        collectionView.collectionViewLayout = gridLayout
-//        collectionView.reloadData()
-        
-        
-    }
+}
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return DataService.instance.getHomes().count
@@ -37,12 +32,11 @@ class HomeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         return HomeViewCell() 
     }
     
-//    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-//        super.viewWillTransition(to: size, with: coordinator)
-//
-//        gridLayout.invalidateLayout()
-//
-//    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 125, height: 150)
+    }
+    
+
 
 
 }

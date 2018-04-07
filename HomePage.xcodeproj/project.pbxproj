@@ -64,8 +64,8 @@
 		DC10EDFF2079081B0062FAC1 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
-				DC10EE1F20790FB20062FAC1 /* Layouts */,
 				DC10EE002079081B0062FAC1 /* AppDelegate.swift */,
+				DC10EE1F20790FB20062FAC1 /* Layouts */,
 				DC10EE18207909900062FAC1 /* Service */,
 				DC10EE17207909850062FAC1 /* Model */,
 				DC10EE162079097D0062FAC1 /* View */,

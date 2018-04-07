@@ -17,4 +17,14 @@ class HomeViewCell: UICollectionViewCell {
         imageView.image = UIImage(named: home.image)
         nameLabel.text = home.nameLabel
     }
+    
+    override func draw(_ rect: CGRect) {
+        self.layer.cornerRadius = 16
+
+    }
+    
+    override func awakeFromNib() {
+        imageView.layer.cornerRadius = 16
+        
+    }
 }
